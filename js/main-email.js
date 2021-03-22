@@ -22,6 +22,7 @@ for (var i = 0; i < listaEmail.length; i++){
         var nameEmail = listaEmail[i]
         if(nameEmail === email){
         emailFound = true;
+        break;
     }
 }
 
